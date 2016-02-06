@@ -1,0 +1,65 @@
+/* line 10, /home/ubuntu/workspace/app/assets/stylesheets/people.scss */
+body {
+  background-image: url("cutiep.jpg");
+}
+
+/* line 13, /home/ubuntu/workspace/app/assets/stylesheets/people.scss */
+body.bodyDisplay {
+  min-height: 90%;
+  min-width: 90%;
+  background-image: url("cutiep.jpg");
+}
+
+/* line 21, /home/ubuntu/workspace/app/assets/stylesheets/people.scss */
+table {
+  border-collapse: collapse;
+}
+
+/* line 25, /home/ubuntu/workspace/app/assets/stylesheets/people.scss */
+table, td, th.BorderDraw {
+  border: 1px solid black;
+  padding: 5px;
+  background-color: white;
+}
+
+/* line 30, /home/ubuntu/workspace/app/assets/stylesheets/people.scss */
+td, th {
+  min-width: 100px;
+}
+
+/* line 34, /home/ubuntu/workspace/app/assets/stylesheets/people.scss */
+div.container {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* line 42, /home/ubuntu/workspace/app/assets/stylesheets/people.scss */
+div.rect {
+  display: inline-block;
+}
+
+/* line 50, /home/ubuntu/workspace/app/assets/stylesheets/people.scss */
+div#overlayedImage {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  min-width: 1176px;
+  height: 615px;
+  background-image: url("overlay2.png");
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+

@@ -4,6 +4,8 @@ I created an about page you can look at.
 I originally had a different git repository, but created a new one in an attempt to get postgres working.
 Old one can be found at: https://github.com/tplamondon/assignment2
 
+Special thanks to Lukas who helped me to get postgres working, and helped me get this project on Heroku
+
 
 This README would normally document whatever steps are necessary to get the
 application up and running.

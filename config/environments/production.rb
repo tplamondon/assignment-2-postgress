@@ -80,8 +80,8 @@ Rails.application.configure do
   
   
   #this needs to be in to give images on heroku for some reason
-  #config.serve_static_assets = true
-#config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect'
-#config.assets.compile = true
+  config.serve_static_assets = true
+config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect'
+config.assets.compile = true
   
 end

@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   #get 'people/show'
   
   resources :people
+  resources :welcome
   
   root 'welcome#index'
 
